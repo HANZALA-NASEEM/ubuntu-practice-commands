@@ -1,0 +1,146 @@
+For Open Terminal in ubuntu:
+Ctrl+Alt+T
+
+Basic Commands of Linux: 
+ls
+pwd
+cd
+cp
+rm
+rm -r
+man      #Tell the details of Command
+help
+clear
+dir
+mkdir
+ifconfig -a
+
+Check Administrator User: sudo -i
+
+For Create the folder:
+mkdir Hanzla
+
+For Remove the Folder/Directory: 
+rmdir Hanzla 
+
+For Remove the file:
+rm file2   #file2 is a file name
+
+For Create the file: 
+cat >file2
+touch file2
+
+For Open the file in a folder:  
+gedit file
+
+For Check the type of file:
+file file
+
+For Check the Size of file:
+wc file
+
+For check head or tail of file: 
+head file
+tail file
+
+For check the first and last 2 lines of file:
+tail -n 2 file
+head -n 2 file
+
+tail +n 2 file
+head +n 2 file
+
+For Check All Directories and files: 
+ls -l
+
+For Check Hidden Directory: 
+ls -a
+
+For check hidden file with permission:
+ls -all
+
+For Back to the Main Directory:
+cd ..
+
+For Check date:
+date
+
+For check calender:
+cal 
+
+For check all location files and folders:
+ls /bin/
+ls /etc/
+ls /tmp/
+
+For Check the Operating System:
+cat /etc/os-release
+uname -a
+
+For Show Dist Partition:
+lsblk
+
+For Check All runing Program:
+top
+
+For Stop the servie:
+Kill 2498   #2498 PID
+
+For Open root admin:
+sudo -i
+
+For Add User through sudo:
+sudo adduser user1
+
+For Del User:
+sudo userdel user1
+
+For Add Group:
+sudo groupadd g1
+
+For set password: 
+sudo password user1
+
+For Show Group:
+tail /etc/group    #It shows the groups, users etc
+
+For install software:
+sudo apt install vlc
+
+For Update the Repository:
+sudo apt update/upgrade vlc
+
+Add Hard Disk and Reboot:
+sudo reboot
+
+Temporary Change Hostname: 
+To check hostname type
+hostname
+sudo hostname Hanzla
+
+Disk Management Commands: 
+sudo -i
+root Password
+fdisk /dev/sda1
+
+Create Disk Partition:
+pvcreate /dev/sda1
+
+Show All Partition Details:
+df -h
+
+Remotely Connected 2 VMs:-
+1: Software  2:SSH command
+
+Install ssh:
+sudo install apt ssh
+
+SSH Secured Socket Shell: We can access other linux machine like redhat etc in our terminal though ssh commands.
+For implement this: On both machines type the ssh commands on both terminals
+
+Software: Tigervnc     :-Through username and password both machines are connected remotly
+
+Check Ping in ubuntu
+ping 8.8.8.8
+
+
